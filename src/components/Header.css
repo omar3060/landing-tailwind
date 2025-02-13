@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  
+  .header-initial {
+    @apply pt-[60px]
+  }
+
+  .scrolled {
+    /* @apply bg-[#0c1524] !py-5; put important ! before the style */
+    @apply bg-[#0c1524] py-5;
+  }
+}
