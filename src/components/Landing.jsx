@@ -28,7 +28,13 @@ const Landing = () => {
           <a href="/" className="btn w-[280px] h-[60px] rounded-[30px] element-center text-white font-medium">Get Started</a>
         </div>
       </div>
-      
+      <div className="w-full h-[200px]">
+      <picture>
+        <source srcSet="/src/assets/images/bg-curvy-desktop.svg" media="(min-width: 1024px)"/>
+        <source srcSet="/src/assets/images/bg-curvy-mobile.svg" media="(min-width: 768px)"/>
+        <img src="/src/assets/images/bg-curvy-mobile.svg" alt="curvy-desktop" className="w-full h-full"/>
+      </picture>
+      </div>
     </section>
   );
 };
