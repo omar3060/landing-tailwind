@@ -28,6 +28,7 @@ const Landing = () => {
           <a href="/" className="btn w-[280px] h-[60px] rounded-[30px] element-center text-white font-medium">Get Started</a>
         </div>
       </div>
+      
     </section>
   );
 };
