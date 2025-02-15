@@ -7,9 +7,19 @@ export default {
   theme: {
     extend: {
       colors: {
-        mainColor: '#000',
+        primaryColor: '#67dbda',
         whiteColor: '#fff',
         redColor: 'red'
+      },
+      keyframes: {
+        moveRight: {
+          '0%': {transform: "translateX(0)"},
+          '50%': {transform: "translateX(7px)"},
+          '100%': {transform: "translateX(0)"},
+        },
+      },
+      animation: {
+        moveRight: "moveRight 1s ease-in-out infinite",
       },
       screens: {
         sm: "576px",
