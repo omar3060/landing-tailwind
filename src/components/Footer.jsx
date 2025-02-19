@@ -24,7 +24,7 @@ const Footer = () => {
       <div className="container">
         <a href="#">
           <img
-            src="/src/assets/images/logo.svg"
+            src="/images/logo.svg"
             alt="logo-img"
             className="w-[175px] h-[66px] object-contain"
           />
@@ -32,7 +32,7 @@ const Footer = () => {
         <div className="mt-[30px] flex justify-between flex-wrap flex-col md:flex-row gap-[30px]">
           <div className="flex items-start gap-[15px] w-[340px] max-w-full">
             <img
-              src="/src/assets/images/icon-location.svg"
+              src="/images/icon-location.svg"
               alt="location-img"
               className="w-[18px] h-[18px] object-contain"
             />
@@ -49,7 +49,7 @@ const Footer = () => {
                 className="flex  items-center gap-[15px] mb-[15px] last-of-type:mb-0"
               >
                 <img
-                  src={`/src/assets/images/${item.icon}`}
+                  src={`/images/${item.icon}`}
                   alt="phone-icon"
                   className="w-[18px] h-[18px] object-contain"
                 />

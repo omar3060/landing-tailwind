@@ -29,7 +29,7 @@ const Testimonials = () => {
     <section className="pb-[300px] md:pb-[350px]">
       <div className="container relative">
         <div className="absolute left-[20px] top-[-35px]">
-          <img src="/src/assets/images/bg-quotes.png" alt="quote" />
+          <img src="/images/bg-quotes.png" alt="quote" />
         </div>
         <div className="flex flex-wrap gap-[30px] justify-center relative z-[10]">
         {testData.map((item) => (
